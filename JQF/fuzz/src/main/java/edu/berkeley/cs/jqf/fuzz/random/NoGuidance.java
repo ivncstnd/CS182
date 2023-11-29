@@ -80,7 +80,7 @@ public class NoGuidance implements Guidance {
      */
     @Override
     public InputStream getInput() {
-        return Guidance.createInputStream(() -> random.nextInt(256));
+        return Guidance.createInputStream(() -> 200);
     }
 
     /**
