@@ -47,6 +47,8 @@ public class BranchEvent extends TraceEvent {
     public BranchEvent(int iid, MemberRef containingMethod, int lineNumber, int arm) {
         super(iid, containingMethod, lineNumber);
         this.arm = arm;
+        String str1 = "Event ID: " + iid + ", branch arm: " + arm;
+        System.out.println(str1);
     }
 
     public int getArm() {

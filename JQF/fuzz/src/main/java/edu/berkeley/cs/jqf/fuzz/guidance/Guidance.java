@@ -198,7 +198,7 @@ public interface Guidance {
                 if (val < -1 || val > 255) {
                     throw new IOException("inputByteSource should return a byte or -1 on EOF");
                 }
-                return val;
+                return 200;
             }
         };
     }
